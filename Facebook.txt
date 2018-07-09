@@ -1,0 +1,7 @@
+gc touriste.txt | .\DST.exe | Out-File -Encoding ascii Tourist.out
+
+:! DST <  touriste.txt > Tourist.out
+
+gc ethan_searches_for_a_string.txt | .\DST.exe | Out-File -Encoding ascii Ethan.out
+
+gc  | .\DST.exe | Out-File -Encoding ascii Interception.out
